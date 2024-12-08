@@ -17,16 +17,12 @@ Main Theme repo can be found [here](https://github.com/eldritch-theme/eldritch)
 <figcaption>Transparent enabled</figcaption>
 <img src="screenshot-transparent.png" alt="Screenshot"/><br/>
 </figure>
-<figure>
-<figcaption>Python (basepyright) Example</figcaption>
-<img src="python-screenshot.png" alt="Screenshot"/><br/>
-</figure>
 
 ### Installation
 Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 ```lua
 {
-  "eldritch-theme/eldritch.nvim",
+  "VeryElegantBread/darker-eldritch.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
@@ -117,7 +113,6 @@ require("eldritch").setup({
 #### Extras
 
 ##### [dashboard.nvim](https://github.com/nvimdev/dashboard-nvim) banner
-<img src="dashboard.png" alt="Dashboard"/><br/>
 
 If you want the header for dashboard.nvim inside your dashboard lua config:
 ```lua
